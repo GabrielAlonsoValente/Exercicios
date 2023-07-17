@@ -29,17 +29,13 @@ body.pag05{
 
 body.pag06{
     height: 100vh;
-    background-color: black;
-    background-image: url(imagens/wallpaper002.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 main.pag06{
     background-color: white;
-    width: 400px;
+    max-width: 500px;
     padding: 10px;
     margin: auto;
     border: 1px solid black;
