@@ -27,6 +27,24 @@ body.pag05{
     background-position: center center;
 }
 
+body.pag06{
+    height: 100vh;
+    background-color: black;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+main.pag06{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
 div.bloco{
     background-image: url(imagens/wallpaper003.jpg);
     height: 200px;
