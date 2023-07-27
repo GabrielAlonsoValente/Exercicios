@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+}
+
+table{
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+
+}
+
+td:hover{
+    background-color: yellow;
+}
+tr.linha > td:hover{
+    background-color: red;
+}
+
+tr{
+    background-color: lightgrey;
+}
+
+tr.linha{
+    background-color: grey;
+    font-weight: bolder;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td.vazio{
+    border: 0px solid white;
+    background-color: green;
+
+}
