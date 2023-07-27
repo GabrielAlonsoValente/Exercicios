@@ -7,21 +7,27 @@ body{
 }
 
 table{
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border-collapse: collapse;
+}
 
+table > tbody > tr{
+    height: 100px;    
+    border-collapse: collapse;
+}
+
+table > thead > tr > th{ 
+    height: 100px;  
+    border-collapse: collapse;
 }
 
 td:hover{
     background-color: yellow;
 }
+
 tr.linha > td:hover{
     background-color: red;
-}
-
-tr{
-    background-color: lightgrey;
 }
 
 tr.linha{
@@ -29,15 +35,31 @@ tr.linha{
     font-weight: bolder;
 }
 
-td{
+td, th{
     border: 1px solid black;
     padding: 8px;
     text-align: center;
     vertical-align: middle;
 }
 
+thead, tfoot{
+    background-color: grey;
+    color: white;
+}
+
+thead > tr > th:hover{
+    background-color: red;
+}
+
+tbody{
+    background-color: lightgrey;
+}
 td.vazio{
     border: 0px solid white;
     background-color: green;
 
+}
+
+.num{
+    text-align: right;
 }
