@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+h1{
+    text-align: center;
+
+}
+
+div{
+
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -10,16 +18,34 @@ table{
     width: 600px;
     height: 600px;
     border-collapse: collapse;
+    position: relative;
+    
 }
 
 table > tbody > tr{
-    height: 100px;    
+    height: 80px;    
     border-collapse: collapse;
+
+}
+
+tbody > tr:nth-child(2n){
+    background-color: lightgray;
 }
 
 table > thead > tr > th{ 
-    height: 100px;  
+    height: 40px;  
     border-collapse: collapse;
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
+
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightseagreen;
+    border: 1px solid black;
 }
 
 td:hover{
@@ -52,7 +78,7 @@ thead > tr > th:hover{
 }
 
 tbody{
-    background-color: lightgrey;
+    background-color: white;
 }
 td.vazio{
     border: 0px solid white;
@@ -63,3 +89,4 @@ td.vazio{
 .num{
     text-align: right;
 }
+
