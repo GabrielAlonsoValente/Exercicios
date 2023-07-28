@@ -5,10 +5,6 @@ h1{
 
 }
 
-div{
-
-}
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightgreen;
@@ -80,6 +76,7 @@ thead > tr > th:hover{
 tbody{
     background-color: white;
 }
+
 td.vazio{
     border: 0px solid white;
     background-color: green;
